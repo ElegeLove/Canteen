@@ -1,0 +1,42 @@
+.boxs{
+  box-sizing: border-box;
+  padding: 20px 40px;
+  >.ipts{
+    display: flex;
+    height: 55px;
+    >span{
+      font-size: 16px;
+      color: #000;
+      white-space: nowrap;
+      margin-top: 8px;
+    }
+    input{
+      width: 400px;
+    }
+    .ant-calendar-picker,.ant-select{
+      width: 180px;
+    }
+    .ant-select{
+      width: 180px;
+    }
+  }
+  >.seles{
+    margin-bottom: 10px;
+  }
+  >.upfile{
+    margin-top: 60px;
+    >p{
+      font-size: 16px;
+      color: #000;
+      white-space: nowrap;
+      margin-bottom: 20px;
+      margin-left: 0;
+    }
+  }
+  >button{
+    margin-top: 60px;
+  }
+}
+/deep/ .ant-form-item{
+  margin-bottom: 0;
+}

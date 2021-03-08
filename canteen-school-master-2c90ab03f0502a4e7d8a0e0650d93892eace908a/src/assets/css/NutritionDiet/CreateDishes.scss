@@ -1,0 +1,73 @@
+.seleBox{
+  margin-bottom: 30px;
+  >p{
+    font-size: 16px;
+    color: #333333;
+    margin-left: 0;
+    >span{
+      font-size: 16px;
+      color: #8d8d8d;
+      margin-left: 20px;
+    }
+  }
+  input{
+    width: 300px;
+  }
+  .ant-calendar-picker{
+    width: 300px;
+  }
+  >div{
+    font-size: 16px;
+    min-height: 60px;
+  }
+}
+.boxs{
+  box-sizing: border-box;
+  padding: 30px 40px;
+}
+.adds{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 160px;
+  >img{
+    width: 25px;
+    height: 25px;
+    margin-right: 14px;
+  }
+  >span{
+    font-size: 16px;
+    color: #333333;
+  }
+}
+.newMar{
+  margin-bottom: 32px;
+}
+.btnBox{
+  display: flex;
+  align-items: center;
+  margin-top: 140px;
+  margin-bottom: 50px;
+  button{
+    width: 80px;
+    height: 36px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  button:nth-of-type(1){
+    margin-right: 60px;
+  }
+}
+.flexBox{
+  display: flex;
+  flex-wrap: wrap;
+  min-height:60px ;
+  >div{
+    margin-right: 30px;
+    min-height: 60px;
+  }
+}
+.deles{
+  margin-left: 20px;
+  margin-top: 40px;
+}

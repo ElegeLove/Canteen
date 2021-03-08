@@ -1,0 +1,42 @@
+.listBox{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  >div{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 210px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 16px 0px rgba(43, 42, 42, 0.06);
+    border-radius: 10px;
+    overflow: hidden;
+    .contBoxs{
+      box-sizing: border-box;
+      padding: 13px 17px 14px 17px;
+      >p{
+        font-size: 14px;
+        color: #333333;
+        margin-bottom: 0;
+      }
+      >p:not(:last-child){
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+.edits{
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  cursor: pointer;
+  width: 70px;
+  >img{
+    width: 16px;
+    height: 16px;
+  }
+  >span{
+    font-size: 14px;
+    color: #376DF7;
+    margin-left: 8px;
+  }
+}

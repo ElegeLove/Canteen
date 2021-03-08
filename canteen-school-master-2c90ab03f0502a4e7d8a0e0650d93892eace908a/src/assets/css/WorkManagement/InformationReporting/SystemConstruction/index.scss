@@ -1,0 +1,32 @@
+.add_system{
+  display: flex;
+  justify-content: flex-end;
+}
+.boxs{
+  box-sizing: border-box;
+  padding: 20px 40px;
+}
+.actiosn{
+  >span{
+    cursor: pointer;
+  }
+}
+.tables{
+  margin-top: 30px;
+}
+.flexBox{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  >div{
+    margin-right: 20px;
+    >span{
+      color: #333333;
+    }
+  }
+}
+.up_tit{
+  font-size: 16px;
+  margin-bottom: 10px;
+}

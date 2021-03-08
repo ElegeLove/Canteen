@@ -1,0 +1,196 @@
+.padBox{
+  box-sizing: border-box;
+  padding: 20px 40px;
+}
+.dataBox{
+  >p{
+    font-size: 16px;
+    color: #333333;
+    margin-left: 0;
+  }
+  >div{
+    display: flex;
+    align-items:flex-start !important;
+  }
+  /deep/ .ant-form-item{
+    margin-bottom: 0;
+  }
+  .lines{
+    display: inline-block;
+    margin: 7px 15px 0px 15px;
+    font-size: 18px;
+    color: #000;
+  }
+}
+.rows{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  >div{
+    // margin-bottom: 20px;
+    height: 110px;
+    margin-right: 150px;
+    >p{
+      font-size: 16px;
+      color: #333333;
+      margin-bottom: 15px;
+      margin-left: 0;
+    }
+    >div{
+      display: flex;
+      align-items: center;
+      span{
+        margin-left: 5px;
+        font-size: 16px;
+        color: #333333;
+      }
+      input{
+         width: 200px;
+      }
+    }
+  }
+}
+.rowfg{
+  >p{
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 15px;
+    margin-left: 0;
+  }
+  >div{
+    height: 110px;
+    display: flex;
+    // align-items: center;
+    span{
+      margin-left: 5px;
+      font-size: 16px;
+      color: #333333;
+      margin-top: 10px;
+    }
+    input{
+       width: 200px;
+    }
+  }
+}
+.allIpts{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  >div{
+    >div{
+      >input{
+        width: 250px;
+      }
+    }
+  }
+}
+.rowTwos{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  >div{
+    height: 100px;
+  }
+}
+.marRigs{
+  margin-right: 135px;
+}
+.mars{
+  margin-right: 42px;
+}
+.oneHeads{
+  display: flex;
+  flex-wrap: wrap;
+}
+.uploads{
+  >div:nth-of-type(1){
+    font-size: 16px;
+    color: #333333;
+  }
+  >div:nth-of-type(2){
+    margin-top: 10px;
+  }
+}
+.titles{
+  display: flex;
+  align-items: center;
+  margin-bottom: 38px;
+  margin-top: 30px;
+  >span{
+    font-size: 16px;
+    color: #333333;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  >div{
+    flex: 1;
+    height: 1px;
+    background-color: #e6e6e6;
+  }
+}
+.allRow{
+  display: flex;
+  >div:nth-of-type(1){
+    margin-right: 116px;
+  }
+}
+.divRow{
+  min-height: 100px;
+  >p{
+    font-size: 16px;
+    color: #333333;
+     white-space: nowrap;
+     margin-bottom: 10px;
+     margin-left: 0;
+  }
+  >div{
+    display: flex;
+    align-items: center;
+    input{
+      width: 240px !important;
+    }
+    .ant-calendar-picker{
+      width: 240px !important;
+    }
+  }
+}
+.smallIpt{
+  width: 150px !important;
+}
+.cardBox{
+  display: flex;
+  >div{
+    width: 169px !important;
+    height: 110px !important;
+  }
+  >div:nth-of-type(1){
+    margin-right: 32px;
+  }
+}
+.cardBox /deep/ .ant-upload.ant-upload-select-picture-card > .ant-upload{
+  padding: 0 !important;
+}
+.cardBox /deep/ .ant-upload-list-picture-card .ant-upload-list-item{
+   width: 169px;
+   height: 110px;
+}
+.btns{
+  margin: 30px 0 50px 0;
+}
+.top_box{
+  margin-bottom: 20px;
+  >div{
+    display: flex;
+    align-items: center;
+    >span{
+      font-size: 16px;
+      color:#333333;
+    }
+    .ant-select{
+      width: 180px;
+    }
+  }
+}
+/deep/ .ant-form-item{
+  margin-bottom: 0;
+}

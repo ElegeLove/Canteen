@@ -1,0 +1,53 @@
+/deep/ .ant-page-header-heading-title{
+  font-size: 16px !important;
+}
+.contTit{
+  box-sizing: border-box;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  >p{
+    font-size: 20px;
+    color:#333333;
+    font-weight: bold;
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+  >div{
+    font-size: 15px;
+    color: #333333;
+    margin-bottom: 20px;
+    display: flex;
+    >div>div{
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      >p{
+        font-size: 14px;
+        color: #333333;
+        text-decoration:underline;
+        margin-bottom: 0;
+      }
+      >button{
+        margin-left: 15px;
+        height: 28px;
+      }
+    }
+  }
+}
+.atachs{
+  >span{
+    margin-top: 3px;
+  }
+  >div{
+    >div{
+      >p{
+        margin: 0;
+      }
+    }
+  }
+}
+.richTxt{
+  box-sizing: border-box;
+  padding: 20px 0;
+  font-size: 15px;
+}

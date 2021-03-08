@@ -1,0 +1,87 @@
+.padBox{
+  box-sizing: border-box;
+  padding: 10px 40px;
+}
+.titles{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 38px;
+  >span{
+    font-size: 16px;
+    color: #333333;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  >div{
+    flex: 1;
+    height: 1px;
+    background-color: #e6e6e6;
+  }
+}
+.iptBox{
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  >div:not(:last-child){
+    margin-right: 80px;
+  }
+  >div{
+    width: 300px;
+     margin-bottom: 15px;
+    >p{
+      font-size: 16px;
+      color: #333333;
+       white-space: nowrap;
+       margin-bottom: 10px;
+       margin-left: 0;
+    }
+    >div{
+      display: flex;
+      // align-items: center;
+      input{
+        width: 300px;
+      }
+      >span{
+        margin-top: 10px;
+        font-size: 16px;
+        color: #333333;
+        margin-left: 10px;
+        white-space: nowrap;
+      }
+    }
+  }
+}
+.setNum{
+  margin-top: 20px;
+}
+.btns{
+  margin: 30px 0 50px 0;
+}
+/deep/ .ant-tabs-nav .ant-tabs-tab{
+  font-size: 16px;
+}
+.top_box{
+  >div{
+    display: flex;
+    align-items: center;
+    >span{
+      font-size: 16px;
+      color:#333333;
+    }
+    .ant-select{
+      width: 180px;
+    }
+  }
+  >div:not(:last-child){
+    margin-bottom: 20px;
+  }
+}
+/deep/ .ant-form-item{
+  margin-bottom: 0;
+}
+.noHeight{
+  height: auto !important;
+}

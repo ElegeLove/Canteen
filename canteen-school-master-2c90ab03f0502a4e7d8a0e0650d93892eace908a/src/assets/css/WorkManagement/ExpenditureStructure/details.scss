@@ -1,0 +1,136 @@
+.padBox{
+  box-sizing: border-box;
+  padding: 10px 40px;
+}
+.top_box{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  >div{
+    flex: 0 0 33%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    >span{
+      font-size: 16px;
+      color:#333333;
+    }
+    .ant-select{
+      width: 180px;
+    }
+  }
+}
+.titles{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 38px;
+  >span{
+    font-size: 16px;
+    color: #333333;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  >div{
+    flex: 1;
+    height: 1px;
+    background-color: #e6e6e6;
+  }
+}
+.iptBox{
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  >div{
+    flex: 0 0 25%;
+     margin-bottom: 30px;
+    >p{
+      font-size: 16px;
+      color: #333333;
+       white-space: nowrap;
+       margin-bottom: 10px;
+       margin-left: 0;
+    }
+    >div{
+      display: flex;
+      // align-items: center;
+      height: 55px;
+      input{
+        width: 300px;
+      }
+      >span{
+        font-size: 16px;
+        color: #333333;
+        white-space: nowrap;
+      }
+    }
+  }
+}
+.newMars{
+  margin-bottom: 10px !important;
+}
+.set_box{
+  width: 80%;
+  min-height: 130px;
+  border: 1px solid #CCCCCC;
+  box-sizing: border-box;
+  padding: 15px;
+  >.tils{
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  >.num_boxs{
+    margin-left: 6px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+    color: #333333;
+    >div:not(:last-child){
+      margin-right: 100px;
+    }
+    >div{
+      >div:nth-of-type(1){
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+.view_box{
+  >div:nth-of-type(1),>p{
+    font-size: 16px;
+    color: #333333;
+  }
+  >div:nth-of-type(1){
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  >p{
+    margin-bottom: 15px;
+  }
+  >div:not(:first-child){
+    margin-bottom: 20px;
+    color: #333333;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    align-items: center;
+    >div{
+      display: flex;
+      align-items: center;
+      flex: 0 0 22%;
+      input{
+        width: 100%;
+      }
+    }
+  }
+}
+/deep/ .ant-form-item{
+  margin-bottom: 0;
+}
+.btns{
+  margin: 20px 0 40px 0;
+}

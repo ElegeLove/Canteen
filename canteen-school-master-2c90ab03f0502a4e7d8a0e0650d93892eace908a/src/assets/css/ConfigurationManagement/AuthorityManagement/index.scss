@@ -1,0 +1,45 @@
+.boxss{
+  box-sizing: border-box;
+  padding: 30px 40px;
+}
+.search{
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  // margin-bottom: 32px;
+  box-sizing: border-box;
+  >input{
+    width: 296px;
+    height: 32px;
+    font-size: 14px;
+    border-radius: 6px;
+  }
+  >button{
+    width: 72px;
+    height: 32px;
+    border-radius: 6px;
+    margin-left: 15px;
+  }
+  >span{
+    font-size: 14px;
+    color: #333333;
+  }
+}
+.btnBox{
+  margin-top: 30px;
+  >button{
+    margin-right: 15px;
+  }
+}
+.tables{
+  margin-top: 30px;
+}
+.actiosn{
+  font-size: 14px;
+  >span:nth-of-type(2){
+    margin: 0 5px;
+  }
+  >span{
+    cursor: pointer;
+  }
+}

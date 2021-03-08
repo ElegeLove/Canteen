@@ -1,0 +1,136 @@
+.alerts {
+    .hlp {
+        cursor: pointer;
+        color: #000;
+        font-size: 14px;
+        // width: 90px;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .hlp:hover {
+        background-color: #1890ff;
+        color: #fff;
+    }
+}
+
+.helps {
+    box-sizing: border-box;
+    padding: 5px 0;
+}
+
+.lookAll {
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    >span {
+        margin-bottom: 3px;
+        margin-right: 7px;
+    }
+    justify-content: center;
+}
+
+.infoTop {
+    padding: 15px 20px 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    border-bottom: 1px solid #ccc;
+}
+
+.messageList {
+    cursor: pointer;
+    display: flex;
+    width: 230px;
+    min-height: 70px;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    >.lef {
+        margin-right: 10px;
+        img {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+        }
+    }
+    >.rig {
+        font-size: 12px;
+        color: rgb(161, 161, 161);
+        >div:nth-of-type(1) {
+            font-size: 16px;
+            color: rgb(51, 51, 51);
+        }
+    }
+}
+
+.rigHeader {
+    background: #fff;
+    padding: 0 20px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .trigger {
+        font-size: 18px;
+        line-height: 64px;
+        padding: 0 24px;
+        cursor: pointer;
+        transition: color 0.3s;
+    }
+    .trigger:hover {
+        color: #1890ff;
+    }
+}
+
+.topRig {
+    box-sizing: border-box;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    >div {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        margin-left: 60px;
+        img {
+            width: 20px;
+            height: 20px;
+        }
+        span {
+            // margin-left: 5px;
+            white-space: nowrap;
+        }
+    }
+}
+
+.margins {
+    margin-right: 20px;
+}
+
+.alitim {
+    display: flex;
+    align-items: center;
+    >img {
+        margin-right: 10px;
+    }
+}
+
+.alitim_user_box {
+    padding: 10px;
+    box-sizing: border-box;
+    .alitim_user {
+        padding: 10px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #ccc;
+        img {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+    }
+}

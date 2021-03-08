@@ -1,0 +1,77 @@
+.tops{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #666666;
+  border-bottom: 1px solid #F0F2F5;
+  box-sizing: border-box;
+  height: 73px;
+  padding: 0 40px;
+  >span:nth-of-type(2){
+    color: #02BC72;
+  }
+  >div{
+    margin: 0 25px;
+  }
+}
+.contentss{
+  box-sizing: border-box;
+  padding: 29px 38px 0px 38px;
+  .titles{
+    font-size: 16px;
+    color: #343434;
+  }
+}
+.conts{
+  margin-top: 19px;
+  width: 770px;
+  border:2px solid rgba(220,220,220,1);
+  border-radius:8px;
+  box-sizing: border-box;
+  textarea{
+    border: 0 !important;
+    resize: none;
+    width: 100%;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 20px 20px 0 20px;
+  }
+}
+.uploads{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 0 40px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.icon{
+  width: 24px;
+  height: 24px;
+  margin-right: 6px;
+  margin-top: -5px;
+}
+.radiosBox{
+  margin-top: 47px;
+  box-sizing: border-box;
+  padding: 0 38px;
+  >p{
+    font-size: 16px;
+    color: #343434;
+    margin-bottom: 30px;
+  }
+  .ant-radio-wrapper{
+    margin-right: 110px;
+    margin-bottom: 20px;
+  }
+}
+.btns{
+  width: 80px;
+  height: 36px;
+  margin-top: 33px;
+  font-size: 14px;
+  margin-left: 38px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,51 @@
+.boxs{
+  box-sizing: border-box;
+  padding: 20px 40px;
+}
+.titlesd{
+  border-bottom: 1px solid #ccc;
+  >div{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    >span{
+      font-size: 16px;
+      color: #333333;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+    >div{
+      color: #333333;
+      font-size: 16px;
+    }
+  }
+}
+.contents{
+  box-sizing: border-box;
+  padding: 20px 0;
+  >p{
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+    margin-left: 0;
+  }
+}
+.conts{
+  font-size: 16px;
+  color:#333333;
+}
+.ateachMents{
+  margin-top: 30px;
+  >p{
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+    margin-left: 0;
+  }
+  >div{
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration:underline;
+    margin-bottom: 10px;
+  }
+}

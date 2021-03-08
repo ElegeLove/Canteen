@@ -1,0 +1,97 @@
+#printTable,.printTable {
+  width: 100%;
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  left: 0;
+
+  .textCenter {
+    text-align: center;
+  }
+
+  .textLeft {
+    text-align: left;
+  }
+
+  .textRight {
+    text-align: right;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .table_npcell {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    border-bottom: 2px solid #000000;
+  }
+
+  .numAndPrice {
+    width: 100%;
+  }
+
+  .numAndPrice div {
+    width: 50%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border-right: 1px solid #000;
+    border-bottom: 0;
+    border-top: 1px solid #000;
+  }
+
+  .pr10 {
+    padding-right: 10px;
+  }
+
+  .numAndPriceState {
+    width: 100%;
+  }
+
+  .borderR0 {
+    border-right: 0 !important;
+  }
+
+  .borderl0 {
+    border-left: 0 !important;
+
+  }
+
+  .pl10 {
+    padding-left: 10px;
+  }
+
+  .h40 {
+    height: 45px;
+    line-height: 45px;
+  }
+
+  th,
+  td {
+    height: 45px;
+    border: 1px solid #000;
+    text-align: center;
+  }
+
+  .numAndPriceState div {
+    height: 40px;
+    line-height: 40px;
+    border-right: 1px solid #000;
+    border-bottom: 0;
+    border-top: 1px solid #000;
+    width: 33.3%;
+    text-align: center;
+  }
+
+  .footerContent {
+    display: flex;
+    width: 100%;
+  }
+
+  .footerContent div {
+    width: calc(100% / 3);
+    text-align: left;
+  }
+}

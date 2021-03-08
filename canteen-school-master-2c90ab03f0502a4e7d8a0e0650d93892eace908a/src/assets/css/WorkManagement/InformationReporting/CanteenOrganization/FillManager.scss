@@ -1,0 +1,64 @@
+.boxs{
+  box-sizing: border-box;
+  padding: 20px 40px;
+}
+.formBox{
+  display: flex;
+  margin-bottom: 50px;
+  .lef{
+    >p{
+      font-size: 16px;
+      color: #333333;
+      margin-bottom: 32px;
+      margin-left: 0;
+    }
+    >div{
+      display: flex;
+      height: 60px;
+      >span{
+        margin-top: 6px;
+        font-size: 16px;
+        color: #333333;
+        white-space: nowrap;
+        margin-right: 19px;
+      }
+      input{
+        width: 150px;
+        height: 36px;
+        font-size: 16px;
+        border-radius: 6px;
+      }
+    }
+  }
+}
+.uploads{
+  margin-left: 53px;
+  >div:nth-of-type(1){
+    font-size: 16px;
+    color: #333333;
+  }
+  >div:nth-of-type(2){
+    margin-top: 30px;
+  }
+}
+.btnBox{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  >button{
+    margin-right: 60px;
+  }
+}
+/deep/ .ant-form-item{
+  margin-bottom: 0;
+}
+.scolls{
+  display: flex;
+  align-items: center;
+  >div{
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 30px;
+    min-width: 255px;
+  }
+}

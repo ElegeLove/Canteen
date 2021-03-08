@@ -1,0 +1,111 @@
+.boxs{
+  box-sizing: border-box;
+  padding: 40px;
+  border-bottom: 1px solid #F0F2F5;
+}
+.txtBox{
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 28px;
+}
+.imgBox{
+  width: 118px;
+  border-radius: 5px;
+  height: 118px;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 2px dashed #ccc;
+  margin-right: 20px;
+  >img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    object-fit: cover;
+  }
+}
+.flexCen{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  >div{
+    margin-bottom: 10px;
+  }
+}
+.colBox{
+  p{
+    font-size: 16px;
+    color: #333333;
+    margin-left: 0;
+  }
+}
+.noMar{
+  margin-bottom: 0;
+}
+.cardImg{
+  display: flex;
+  align-items: center;
+  >div{
+    width: 179px;
+    height: 120px;
+    border-radius: 5px;
+    margin-right: 32px;
+    padding: 10px;
+    border: 2px dashed #ccc;
+    cursor: pointer;
+    >img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+.centers{
+  display: flex;
+  align-items: center;
+}
+.news{
+  width: 119px;
+  height: 148px;
+}
+.alltitle{
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 30px;
+  margin-left: 0;
+}
+.btnBox{
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  margin-top:60px;
+  button{
+    width: 80px;
+    height: 36px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  button:nth-of-type(1){
+    margin-right: 60px;
+  }
+}
+.text_areas{
+  resize: none;
+}
+.allImgs{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.filesArr{
+  cursor: pointer;
+  font-size: 16px;
+}
+.filesd{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  >div{
+    margin-right: 30px;
+  }
+}

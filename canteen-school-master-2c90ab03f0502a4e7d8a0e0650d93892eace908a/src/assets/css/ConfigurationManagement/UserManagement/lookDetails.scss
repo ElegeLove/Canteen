@@ -1,0 +1,26 @@
+.boxss{
+  box-sizing: border-box;
+  padding: 30px 40px;
+}
+.txtBox{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #333333;
+  >span{
+    white-space: nowrap;
+  }
+}
+.modulesBox{
+  >div{
+    margin-bottom: 60px;
+  }
+}
+.imgBox{
+  >img{
+    width: 118px;
+    height: 138px;
+    border-radius: 6px;
+  }
+}

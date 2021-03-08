@@ -1,0 +1,89 @@
+.searchBo{
+  >div{
+    >span{
+      color: #333333;
+      white-space: nowrap;
+      min-width: 55px;
+      display: inline-block;
+    }
+    margin-bottom: 20px;
+  }
+}
+.topRig{
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+  >input{
+    width: 206px;
+    height: 32px;
+    font-size: 14px;
+    border-radius: 6px;
+    margin-left: 4px;
+  }
+  >span{
+    font-size: 14px;
+    color: #333333;
+  }
+  >button{
+    width: 72px;
+    height: 32px;
+    border-radius: 6px;
+    margin-left: 15px;
+  }
+}
+.live_box{
+  margin-left: -30px;
+  margin-top: 40px;
+  >div{
+    padding: 0 30px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    >div{
+      width: 100%;
+      overflow: hidden;
+      cursor: pointer;
+      height: 100%;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.5);
+      >.liveScreen{
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0,0,0,1);
+        i{
+          color: #fff;
+          font-size: 43px;
+        }
+      }
+      >.conts{
+        box-sizing: border-box;
+        padding: 10px;
+        >p{
+          font-size: 16px;
+          color: #333333;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+.quitSele{
+  >span{
+    font-size: 16px;
+    color: #000;
+  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 20px 0;
+}
+.closeTxt{
+  text-align: center;
+  color: #333333;
+  font-size: 15px;
+  margin-top: 5px;
+}

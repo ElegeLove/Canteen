@@ -1,0 +1,75 @@
+
+.boxss{
+  box-sizing: border-box;
+  padding: 40px 74px 0 74px;
+}
+.seleBox{
+  margin-bottom: 40px;
+  >p{
+    font-size: 16px;
+    color: #333333;
+    margin-left: 0;
+  }
+  input{
+    width: 300px;
+  }
+  .ant-calendar-picker{
+    width: 300px;
+  }
+}
+.cardBox{
+  display: flex;
+  // align-items: center;
+  >div{
+    width: 169px !important;
+    height: 110px !important;
+  }
+  >div:nth-of-type(1){
+    margin-right: 32px;
+  }
+  // >div{
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   >img{
+  //     width: 169px;
+  //     height: 110px;
+  //     border-radius: 5px;
+  //   }
+  //   button{
+  //     width: 140px;
+  //     height: 36px;
+  //     margin-top: 30px;
+  //   }
+  // }
+}
+.imgBox{
+  >img{
+    width: 118px;
+    height: 118px;
+  }
+  button{
+    width: 140px;
+    height: 36px;
+    margin-top: 30px;
+  }
+}
+.btnBox{
+  margin-bottom: 50px;
+  button{
+    // width: 80px;
+    height: 36px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  button:nth-of-type(1){
+    margin-right: 60px;
+  }
+}
+.cardBox /deep/ .ant-upload.ant-upload-select-picture-card > .ant-upload{
+  padding: 0 !important;
+}
+.cardBox /deep/ .ant-upload-list-picture-card .ant-upload-list-item{
+   width: 169px;
+   height: 110px;
+}

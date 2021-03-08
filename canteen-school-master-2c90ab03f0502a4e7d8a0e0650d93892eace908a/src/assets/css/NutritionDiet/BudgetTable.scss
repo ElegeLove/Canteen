@@ -1,0 +1,149 @@
+.boxs{
+  box-sizing: border-box;
+  padding: 34px 40px;
+}
+.btnDate{
+  display: flex;
+  align-items: center;
+  >div{
+    flex-shrink: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  >div:nth-of-type(1){
+    span{
+      margin-left: 5px;
+    }
+  }
+  >div:nth-of-type(2){
+    span{
+      margin-right: 5px;
+    }
+  }
+  >button{
+    height: 30px;
+    border-radius: 6px;
+    margin: 0 10px;
+  }
+}
+.date{
+  font-size: 26px;
+  color: #333333;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.topBox{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.emptys{
+  min-width: 220px;
+}
+.contBox{
+  margin-top: 54px;
+  box-sizing: border-box;
+  padding: 30px;
+  border: 1px solid #DBDBDB;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.txtBox{
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  >span{
+    font-size: 14px;
+    color: #333333;
+    white-space: nowrap;
+  }
+  >div{
+    font-size: 14px;
+    color: #333333;
+  }
+  input{
+    width: 72px;
+    border-radius: 6px;
+    height: 32px;
+    margin-right: 10px;
+  }
+  .moneys{
+    color: #376DF7;
+  }
+}
+.ant-form-item{
+  margin-bottom: 0 !important;
+}
+.marBot{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.marBot>div{
+  margin-bottom: 20px;
+  margin-right: 80px;
+  min-width: 210px !important;
+}
+.marBot>button{
+  width: 80px;
+  height: 36px;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+.allTab{
+  margin-top: 40px;
+  // min-width: 800px !important;
+}
+.tables{
+  width:100%;
+  min-width: 900px !important;
+  border: 1px solid #e8e8e8;
+  table-layout:fixed;
+  word-break:break-all;
+  td{
+    text-align: center;
+    padding: 12px 8px;
+    white-space: pre-wrap !important;
+    word-wrap:break-word !important;
+  }
+  thead{
+    color: rgba(0, 0, 0, 0.85);
+    background-color: #fafafa;
+  }
+  input{
+    width: 70%;
+    height: 30px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 0 5px;
+    font-size: 14px;
+  }
+}
+.selesd{
+  cursor: pointer;
+}
+.quitSele{
+  >span{
+    font-size: 16px;
+    color: #000;
+  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 20px 0;
+}
+.position{
+  cursor: pointer;
+}
+/deep/ .ant-form-item-control{
+    line-height: 30px !important;
+}
+/deep/ tr{
+  cursor: pointer;
+}

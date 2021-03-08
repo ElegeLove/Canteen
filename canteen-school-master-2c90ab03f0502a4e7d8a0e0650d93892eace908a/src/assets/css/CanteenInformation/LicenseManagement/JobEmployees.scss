@@ -1,0 +1,76 @@
+.addBtn{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.seleBox{
+  margin-top: 20px;
+  >div{
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+    >span{
+      white-space: nowrap;
+      color: #333333;
+    }
+  }
+  /deep/ .ant-select-selection{
+     height: 35px;
+  }
+  /deep/ .ant-select{
+    height: 35px;
+  }
+  /deep/ .ant-select-selection__rendered{
+    line-height: 35px;
+  }
+}
+.topBox{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.searBox{
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  >span{
+    font-size: 14px;
+    color: #000;
+    white-space: nowrap;
+  }
+  >input{
+    width: 250px;
+    height: 35px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  >button{
+    height: 35px;
+  }
+}
+.imgs{
+  width: 100px;
+  height: 140px;
+  object-fit: cover;
+}
+.actiosn{
+  font-size: 14px;
+  >span:nth-of-type(2){
+    margin: 0 5px;
+  }
+  >span{
+    cursor: pointer;
+  }
+}
+.quitSele{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  >span{
+    font-size: 16px;
+    color: #333333;
+  }
+}

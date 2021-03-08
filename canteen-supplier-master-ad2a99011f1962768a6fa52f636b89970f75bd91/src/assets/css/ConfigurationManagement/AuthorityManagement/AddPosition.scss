@@ -1,0 +1,40 @@
+.boxss{
+  box-sizing: border-box;
+  padding: 30px 40px;
+}
+.selec{
+  margin-bottom: 50px;
+  >p{
+    font-size: 16px;
+    color: #333333;
+  }
+  input{
+    width: 270px;
+  }
+  textarea{
+    width: 370px;
+    resize: none;
+    height: 140px;
+  }
+  .ant-checkbox-group{
+    max-width: 900px;
+    margin-top: 10px;
+  }
+  /deep/ .ant-checkbox-group-item{
+    margin-right: 50px;
+    margin-bottom: 35px;
+  }
+}
+.treeBox{
+  width: 900px;
+  height: 500px;
+  border: 1px solid #cccc;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+}
+.moduels{
+  font-size: 16px;
+  color: #333333;
+}

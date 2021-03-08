@@ -1,0 +1,70 @@
+.boxs{
+  box-sizing: border-box;
+  padding: 20px 40px;
+}
+.bigBox{
+  >div:not(:last-child){
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 20px;
+  }
+}
+.formBox{
+  >button{
+    margin-bottom: 20px !important;
+  }
+  >div{
+    // margin-bottom: 32px;
+    height: 75px;
+    display: flex;
+    >span{
+      font-size: 16px;
+      color: #333333;
+      margin-right: 11px;
+      margin-top: 8px;
+    }
+    input{
+      width: 150px;
+      height: 36px;
+      font-size: 16px;
+      border-radius: 6px;
+    }
+  }
+}
+.add_person{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 130px;
+  >img{
+    width: 25px;
+    height: 25px;
+  }
+  >span{
+    font-size: 16px;
+    color: #333333;
+    margin-left: 14px;
+  }
+}
+.btnBox{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  >button{
+    margin-right: 40px;
+  }
+}
+/deep/ .ant-form-item{
+  margin-bottom: 0;
+}
+.rows_bo{
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #333333;
+  flex-wrap: wrap;
+  >div{
+    min-width: 250px;
+    margin-bottom: 25px;
+  }
+}

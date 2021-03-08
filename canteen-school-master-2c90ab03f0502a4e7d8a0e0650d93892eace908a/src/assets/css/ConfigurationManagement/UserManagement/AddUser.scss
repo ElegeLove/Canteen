@@ -1,0 +1,68 @@
+.boxss{
+  box-sizing: border-box;
+  padding: 30px 40px;
+}
+.selec{
+  margin-bottom: 30px;
+  height: 100px;
+  >p{
+    font-size: 16px;
+    color: #333333;
+    >.beis{
+      color: red;
+      margin-left: 6px;
+    }
+    >.tips{
+      color: #ccc;
+      margin-left: 10px;
+      font-size: 15px;
+    }
+  }
+  input,span{
+    width: 270px;
+  }
+  .ant-checkbox-group{
+    width: 320px;
+    /deep/ .ant-checkbox-group-item{
+      margin-bottom: 20px;
+    }
+  }
+}
+.ant-form-item{
+  margin-bottom: 0;
+}
+.switchBox{
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+  >div{
+    >span{
+      font-size: 16px;
+      color: #333333;
+      white-space: nowrap;
+    }
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+  }
+}
+.uploads{
+  >p{
+    font-size: 16px;
+    color: #333333;
+  }
+  .imgBox{
+    >img{
+      width: 118px;
+      height: 118px;
+    }
+    button{
+      width: 118px;
+      height: 36px;
+      margin-top: 30px;
+    }
+  }
+}
+.addSave{
+  margin-top: 20px;
+}

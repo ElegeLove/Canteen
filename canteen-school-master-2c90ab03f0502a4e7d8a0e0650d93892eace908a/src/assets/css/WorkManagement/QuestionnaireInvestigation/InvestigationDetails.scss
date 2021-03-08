@@ -1,0 +1,67 @@
+.boxsf{
+  box-sizing: border-box;
+  padding: 20px 40px;
+}
+.topBox{
+  >p{
+    font-size: 20px;
+    color: #333333;
+    font-weight: bold;
+    margin-left: 0;
+  }
+  .tips{
+    font-size: 16px;
+    color: #333333;
+  }
+}
+.timBoxs{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  >div{
+    display: flex;
+    align-items: center;
+    >span{
+      font-size: 16px;
+      color: #333333;
+      font-weight: bold;
+      margin-right: 40px;
+    }
+    >div{
+      font-size: 15px;
+      color: #333333;
+    }
+  }
+  >span{
+    display: inline-block;
+    width: 200px;
+    height: 1px;
+    background-color: #333333;
+    margin: 0 10px;
+  }
+}
+.file_box{
+  margin-top: 30px;
+}
+.files{
+  margin-bottom: 15px;
+  >span{
+    font-size: 16px;
+    color: #333333;
+    text-decoration:underline;
+    margin-right: 20px;
+  }
+  >button{
+    margin-right: 15px;
+    border-radius: 5px;
+  }
+}
+.dragUps{
+  margin-bottom: 30px;
+  margin-top: 60px;
+  >p{
+    font-size: 16px;
+    color: #333333;
+    margin-left: 0;
+  }
+}

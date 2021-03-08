@@ -1,0 +1,101 @@
+.box{
+  line-height: 1;
+  width: 100%;
+  height: 100%;
+}
+.tophead{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F0F2F5;
+  box-sizing: border-box;
+  padding: 31px 38px 23px 38px;
+  >img{
+    width: 59px;
+    height: 82px;
+    margin-right: 13px;
+  }
+  >div{
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    >div{
+      font-size: 24px;
+      color: #333333;
+      margin-bottom: 15px;
+      font-weight: bold;
+    }
+    >span{
+      font-size: 14px;
+      color: #999999;
+    }
+    >span:nth-of-type(2){
+      margin-top: 5px;
+    }
+  }
+}
+.cont{
+  margin-top: 55px;
+  min-height: 745px;
+  width: 100%;
+  background: url(../../assets/image/callBg.png) 100% 100% no-repeat;
+  background-size: cover;
+  >div{
+    >div{
+      margin: 0 auto;
+    }
+  }
+  >div:nth-of-type(1){
+    >div{
+      background: url(../../assets/image/chats.png) 100% 100% no-repeat;
+      background-size: cover;
+    }
+  }
+  >div:nth-of-type(2){
+    >div{
+      background: url(../../assets/image/qqbg.png) 100% 100% no-repeat;
+      background-size: cover;
+    }
+  }
+}
+.codeBox{
+  width: 410px;
+  height: 490px;
+  background: red;
+  .phoneCode{
+    display: flex;
+    align-items: center;
+    height: 95px;
+    justify-content: center;
+    >img{
+      width: 34px;
+      height: 34px;
+      transition: all 0.3s;
+    }
+    >img:hover{
+      transform: scale(1.1);
+    }
+    >span{
+      font-size: 20px;
+      color: #FFFFFF;
+      margin: 0 38px 0 12px;
+    }
+    >div{
+      font-size: 18px;
+      color: #FFFFFF;
+      cursor: pointer;
+    }
+  }
+  >.saoCode{
+    width: 230px;
+    height: 230px;
+    margin: 60px auto 0 93px;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  >.saoCode:hover{
+    transform: scale(1.1);
+  }
+}
+.hisddens{
+	position: absolute; top: 0; left: 0; opacity: 0; z-index: -10;
+}

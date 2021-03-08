@@ -1,0 +1,78 @@
+.selecs{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right:30px ;
+  >p,>span{
+    white-space: nowrap;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 0;
+  }
+  >input{
+    width: 200px;
+  }
+  >.ant-calendar-picker{
+    width: 200px;
+  }
+}
+.liness{
+  width: 30px !important;
+  text-align: center;
+}
+.boxs{
+  box-sizing: border-box;
+  padding: 30px 0px;
+}
+.tables{
+  margin-top: 30px;
+}
+.actiosn{
+  >span{
+    cursor: pointer;
+  }
+}
+.flexBox{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.quitSele{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 20px 0;
+}
+.noEmpty{
+  color: #ccc !important;
+  cursor: no-drop;
+}
+.but_box{
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  >span{
+    flex: 0 0 50%;
+    display: block;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding:6px 0;
+  }
+}
+.but_boxss{
+  >div{
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    >div{
+      flex: 0 0 50%;
+      display: block;
+      cursor: pointer;
+      box-sizing: border-box;
+      padding: 6px 0;
+      white-space: nowrap;
+    }
+  }
+}

@@ -1,0 +1,253 @@
+.padBox{
+  box-sizing: border-box;
+  padding: 10px 40px;
+}
+.titles{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 38px;
+  >span{
+    font-size: 16px;
+    color: #333333;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  >div{
+    flex: 1;
+    height: 1px;
+    background-color: #e6e6e6;
+  }
+}
+.addDays{
+  margin-top: 30px;
+  >p{
+    font-size: 16px;
+    color: #333333;
+     white-space: nowrap;
+     margin-bottom: 10px;
+     margin-left: 0;
+  }
+  >div{
+    >p{
+      font-size: 16px;
+      color: #333333;
+       white-space: nowrap;
+       margin-bottom: 10px;
+       margin-left: 0;
+    }
+    display: flex;
+    // align-items: center;
+    height: 55px;
+    input{
+      width: 300px;
+    }
+    >span{
+      font-size: 16px;
+      color: #333333;
+      white-space: nowrap;
+    }
+  }
+}
+.iptBox{
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  >div{
+    flex: 0 0 25%;
+     margin-bottom: 30px;
+    >p{
+      font-size: 16px;
+      color: #333333;
+       white-space: nowrap;
+       margin-bottom: 10px;
+       margin-left: 0;
+    }
+    >div{
+      display: flex;
+      // align-items: center;
+      height: 55px;
+      input{
+        width: 300px;
+      }
+      >span{
+        font-size: 16px;
+        color: #333333;
+        white-space: nowrap;
+      }
+    }
+  }
+}
+.rowBox{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  .txts{
+    font-size: 16px;
+    color: #333333;
+    margin-top: 26px;
+  }
+  >div:not(:last-child){
+    margin-right: 90px;
+  }
+  >div{
+    margin-bottom: 30px;
+  }
+  .ipts{
+    >p{
+      font-size: 16px;
+      color: #333333;
+       white-space: nowrap;
+       margin-bottom: 10px;
+    }
+    >div{
+      display: flex;
+      align-items: center;
+      input{
+        width: 300px;
+      }
+      >span{
+        font-size: 16px;
+        color: #333333;
+        white-space: nowrap;
+      }
+    }
+  }
+  .upds{
+    >p{
+      font-size: 16px;
+      color: #333333;
+       white-space: nowrap;
+       margin-bottom: 10px;
+    }
+  }
+}
+.textAreas{
+  textarea{
+    width: 600px;
+    resize: none;
+  }
+}
+.btns{
+  margin: 30px 0 50px 0;
+}
+.top_box{
+  display: flex;
+  align-items: center;
+  >div{
+    flex: 0 0 33%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    >span{
+      font-size: 16px;
+      color:#333333;
+    }
+    .ant-select{
+      width: 180px;
+    }
+  }
+}
+.newBoxs{
+  display: flex;
+  align-items: center;
+  >div{
+    flex: 0 0 25%;
+    font-size: 16px;
+    color: #333333;
+    >div{
+      margin-top: 15px;
+      >img{
+        width: 50px;
+        height: 60px;
+      }
+      >span{
+        cursor: pointer;
+        margin-left: 20px;
+      }
+    }
+  }
+}
+.types_box{
+  >div:not(:last-child){
+    margin-bottom: 20px;
+  }
+}
+.new_boxsd{
+  margin-bottom: 30px;
+  >p{
+    font-size: 16px;
+    color: #333333;
+    margin-left: 0;
+  }
+  >div{
+    display: flex;
+    flex-wrap: wrap;
+    >div{
+      >p{
+        font-size: 16px;
+        color: #333333;
+        margin-bottom: 10px;
+        margin-left: 0;
+      }
+      input{
+        width: 200px;
+      }
+      >span{
+        font-size: 16px;
+      }
+      >div{
+        >img{
+          width: 50px;
+          height: 60px;
+          margin-right: 10px;
+        }
+        >span{
+          cursor: pointer;
+        }
+      }
+    }
+    >div:nth-of-type(1){
+      margin-right: 40px;
+      min-width: 250px;
+    }
+  }
+}
+.sizes{
+  font-size: 16px !important;
+  color: #333333;
+}
+/deep/ .ant-form-item{
+    margin-bottom: 0;
+  }
+.bot_ipt{
+  width: 180px !important;
+  margin-right: 6px;
+}
+.noHeight{
+  height: auto !important;
+}
+.fileView{
+  width: 180px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+  font-size: 16px;
+  >span{
+    color: #333333;
+  }
+  >i{
+    cursor: pointer;
+  }
+  justify-content: space-between;
+}
+.setNum{
+  margin-bottom: 0 !important;
+}
+.ramsks{
+  margin-bottom: 40px;
+  font-size: 16px;
+}

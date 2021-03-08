@@ -1,0 +1,33 @@
+.boxss{
+  box-sizing: border-box;
+  padding: 40px 74px 0 74px;
+}
+.seleBox{
+  margin-bottom: 40px;
+  >p{
+    font-size: 16px;
+    color: #333333;
+    margin-left: 0;
+  }
+  input{
+    width: 300px;
+  }
+  .ant-calendar-picker{
+    width: 300px;
+  }
+}
+.btnBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  button{
+    width: 80px;
+    height: 36px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  button:nth-of-type(1){
+    margin-right: 60px;
+  }
+}

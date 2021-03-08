@@ -1,0 +1,43 @@
+#box {
+    height: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 20px 16px;
+    background-color: #00284d;
+    font-size: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    >span {
+        font-size: 15px;
+        white-space: nowrap;
+        margin-left: 5px;
+    }
+}
+
+.rigContent {
+    margin: 24px 16px;
+    padding: 24px;
+    background: #fff;
+    min-height: 280px;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    /* Chrome Safari */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE 10+ */
+}
+
+.collaMar {
+    margin-left: 10px;
+}

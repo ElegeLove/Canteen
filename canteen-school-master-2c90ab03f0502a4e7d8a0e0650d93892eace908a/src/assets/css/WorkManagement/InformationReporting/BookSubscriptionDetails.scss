@@ -1,0 +1,128 @@
+.boxs{
+  box-sizing: border-box;
+  padding: 0px 40px;
+}
+.titles{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top:30px;
+  >span{
+    font-size: 18px;
+    color: #333333;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  >div{
+    flex: 1;
+    height: 1px;
+    background-color: #e6e6e6;
+  }
+}
+
+.rowBoxs{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  >div{
+    flex: 0 0 22%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #333333;
+    input{
+      width: 90px;
+    }
+    >div:last-child{
+      margin-left: 20px;
+    }
+    >span{
+      white-space: nowrap;
+    }
+  }
+}
+.tips{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  >span{
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 170px;
+  }
+  >div{
+    font-size: 16px;
+    color: #a6a6a6;
+  }
+}
+.allBool{
+  font-size: 16px;
+  color: #333333;
+}
+.iptBox{
+  box-sizing: border-box;
+  >div{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    >div{
+       flex: 0 0 33%;
+       margin-bottom: 30px;
+      >p{
+        font-size: 16px;
+        color: #333333;
+         white-space: nowrap;
+         margin-bottom: 10px;
+         margin-left: 0;
+      }
+      >div{
+        display: flex;
+        // align-items: center;
+        input{
+          width: 300px;
+        }
+        >span{
+          font-size: 16px;
+          color: #333333;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}
+.setNum{
+  margin-top: 10px;
+}
+.btns{
+  margin-bottom: 50px;
+}
+.top_box{
+  margin-top: 20px;
+  >div{
+    display: flex;
+    align-items: center;
+    >span{
+      font-size: 16px;
+      color:#333333;
+    }
+    .ant-select{
+      width: 180px;
+    }
+  }
+  >div:not(:last-child){
+    margin-bottom: 20px;
+  }
+}
+/deep/ .ant-form-item{
+    margin-bottom: 0;
+  }
+.noLefts{
+  margin-left: 0 !important;
+}
+.noHeight{
+  height: auto !important;
+}

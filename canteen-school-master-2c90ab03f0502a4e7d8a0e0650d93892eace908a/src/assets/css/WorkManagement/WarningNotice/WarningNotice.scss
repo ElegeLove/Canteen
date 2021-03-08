@@ -1,0 +1,25 @@
+.tipsBox{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  .tips{
+    font-size: 14px;
+    color: #333333;
+  }
+  >div>span{
+    color: #333333;
+  }
+}
+.actiosn{
+  >span{
+    cursor: pointer;
+  }
+}
+.tables{
+  margin-top: 30px;
+}
+.maxwidths{
+  display: inline-block;
+  max-width: 100%;
+}

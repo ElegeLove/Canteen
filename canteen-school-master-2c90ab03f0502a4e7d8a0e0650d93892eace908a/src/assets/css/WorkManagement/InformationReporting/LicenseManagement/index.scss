@@ -1,0 +1,104 @@
+.padBox{
+  box-sizing: border-box;
+  padding: 10px 40px;
+}
+.titles{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 38px;
+  >span{
+    font-size: 16px;
+    color: #333333;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  >div{
+    flex: 1;
+    height: 1px;
+    background-color: #e6e6e6;
+  }
+}
+.lefs{
+  >p{
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 29px;
+    margin-left: 0;
+  }
+  >div{
+    cursor: pointer;
+    color: #376DF7;
+    font-size: 14px;
+  }
+}
+.rigs{
+  display: flex;
+  align-items: center;
+  >div{
+    width: 118px;
+    height: 150px;
+    border: 1px dashed #ccc;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    >img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+.contBox{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  >div{
+    width: 40%;
+  }
+}
+.newIm{
+   >div{
+     width: 160px !important;
+     height: 118px !important;
+   }
+}
+.btnBox{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 80px;
+  >button:nth-of-type(1){
+    width: 80px;
+    height: 36px;
+    margin-right: 40px;
+    border-radius: 4px;
+  }
+  >button:nth-of-type(2){
+    width: 118px;
+    height: 36px;
+    border-radius: 4px;
+  }
+}
+/deep/ .ant-tabs-nav .ant-tabs-tab{
+  font-size: 16px;
+}
+.adds{
+  cursor: pointer;
+}
+.top_box{
+  >div{
+    display: flex;
+    align-items: center;
+    >span{
+      font-size: 16px;
+      color:#333333;
+    }
+    .ant-select{
+      width: 180px;
+    }
+  }
+  >div:not(:last-child){
+    margin-bottom: 20px;
+  }
+}

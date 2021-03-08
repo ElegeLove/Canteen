@@ -1,0 +1,116 @@
+.padBox{
+  box-sizing: border-box;
+  padding: 10px 40px;
+}
+.titles{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  >span{
+    font-size: 16px;
+    color: #333333;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  >div{
+    flex: 1;
+    height: 1px;
+    background-color: #e6e6e6;
+  }
+}
+.rowboxs{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  >div{
+    font-size: 16px;
+    color: #333333;
+    min-width: 300px;
+    margin-bottom: 20px;
+  }
+  >div:not(:last-child){
+    margin-right: 60px;
+  }
+}
+.tips{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  >span{
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  >div{
+    font-size: 16px;
+    color:#5a5a5acc;
+  }
+}
+.iptBox{
+ box-sizing: border-box;
+ display: flex;
+ align-items: center;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ width: 100%;
+  >div{
+     flex: 0 0 33%;
+     margin-bottom: 10px;
+    >p{
+      font-size: 16px;
+      color: #333333;
+       white-space: nowrap;
+       margin-bottom: 10px;
+       margin-left: 0;
+    }
+    >div{
+      height: 60px;
+      display: flex;
+      input{
+        width: 300px;
+      }
+      >span{
+        font-size: 16px;
+        color: #333333;
+        margin-top: 8px;
+        margin-left: 10px;
+        white-space: nowrap;
+      }
+    }
+  }
+}
+.btns{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+/deep/ .ant-tabs-nav .ant-tabs-tab{
+  font-size: 16px;
+}
+/deep/ .ant-form-item{
+  margin-bottom: 0;
+}
+.checkScoll{
+  margin-top: 8px;
+  >span{
+    font-size: 16px;
+  }
+  .ant-select{
+    width: 160px;
+  }
+}
+.contBox{
+  >p{
+    font-size: 16px;
+    color: #333333;
+  }
+}
+.cont_bo{
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 15px;
+}

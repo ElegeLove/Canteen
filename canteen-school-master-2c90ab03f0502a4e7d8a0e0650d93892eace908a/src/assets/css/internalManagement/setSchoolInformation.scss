@@ -1,0 +1,72 @@
+.leftBox{
+  >p{
+    font-size: 26px;
+    color:#333333;
+    font-weight: bold;
+    margin-bottom: 43px;
+  }
+  >.info{
+    font-size: 16px;
+    color: #333333;
+    height: 40px;
+    font-family:Microsoft YaHei;
+  }
+  .codes{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    >div{
+      font-size: 16px;
+      color: #333333;
+    }
+    >input{
+      width: 406px;
+      height: 40px;
+      box-sizing: border-box;
+      padding: 0 10px;
+      font-size: 16px;
+      color: #000;
+      border-radius: 6px;
+      margin-top: 19px;
+    }
+  }
+  >.radioBox{
+    margin-bottom: 15px;
+    margin-top: 20px;
+    >div{
+      font-size: 16px;
+      color: #333333;
+      margin-bottom: 10px;
+    }
+    /deep/ .ant-radio-wrapper{
+      margin-right: 40px;
+    }
+  }
+}
+.uploads{
+  margin-top: 79px;
+  >div:nth-of-type(1){
+    font-size: 16px;
+    color: #333333;
+  }
+  >div:nth-of-type(2){
+    margin-top: 30px;
+  }
+}
+.box{
+  box-sizing: border-box;
+}
+.flexs{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  >button:nth-of-type(1){
+    margin-right: 80px;
+  }
+  >button{
+    border-radius: 4px;
+  }
+}
+.rows{
+  box-sizing: border-box;
+  padding: 0 44px;
+}

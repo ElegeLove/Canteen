@@ -1,0 +1,59 @@
+.divFlex{
+  display: flex;
+  align-items: center;
+  margin-bottom: 28px;
+  >span{
+    display: inline-block;
+    width: 57px;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    >span{
+      display: inline-block;
+      width: 29px;
+      height: 1px;
+      background-color: #02BB72;
+    }
+  }
+  >div{
+    >p{
+      font-size: 16px;
+      color: #333333;
+      margin-bottom: 0;
+      min-height: 20px;
+      margin-left: 0;
+    }
+    input{
+      height: 40px;
+      width: 406px;
+      border-radius: 6px;
+      margin-top: 19px;
+    }
+  }
+}
+.radios{
+  >div{
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 30px;
+  }
+  /deep/ .ant-radio-wrapper{
+    margin-right: 70px;
+  }
+}
+.flexs{
+  display: flex;
+  justify-content: center;
+  >button:nth-of-type(1){
+    margin-right: 80px;
+  }
+  >button{
+    border-radius: 4px;
+  }
+}
+.rows{
+  box-sizing: border-box;
+  padding: 0 44px 20px 44px;
+}

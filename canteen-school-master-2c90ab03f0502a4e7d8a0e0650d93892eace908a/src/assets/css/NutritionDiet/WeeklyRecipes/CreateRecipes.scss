@@ -1,0 +1,141 @@
+.btnDate{
+  display: flex;
+  align-items: center;
+  >div{
+    flex-shrink: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  >div:nth-of-type(1){
+    span{
+      margin-left: 5px;
+    }
+  }
+  >div:nth-of-type(2){
+    span{
+      margin-right: 5px;
+    }
+  }
+  >button{
+    height: 30px;
+    border-radius: 6px;
+    margin: 0 10px;
+  }
+}
+.boxs{
+  box-sizing: border-box;
+  padding: 30px 40px;
+}
+.lef{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  >div{
+    margin-bottom: 30px;
+  }
+}
+.dates{
+  margin-left: 25px;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  >span{
+    font-size: 16px;
+    color: #333333;
+  }
+  >div{
+    font-size: 16px;
+    color: #333333;
+  }
+}
+.rig{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  >button{
+    margin-left: 15px;
+    border-radius: 5px;
+  }
+}
+.topss{
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.titDate{
+  position:absolute;
+  margin-bottom: 0;
+  width:30px;
+  left:-26px;
+  top:-5px;
+}
+.lines{
+  position:absolute;
+  width:41px;
+  height:1px;
+  background:#999;
+  margin-bottom:0;
+  transform: rotateZ(-45deg);
+  margin-left:10px;
+  margin-top:10px;
+  left:-24px;
+  top:6px;
+}
+.titTxt{
+  position:absolute;
+  text-align: right;
+  margin-bottom: 0;
+  width:30px;
+  left:10px;
+  top: 18px;
+}
+.weekTit{
+  >p{
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  >p:nth-of-type(2){
+    margin-top: 5px;
+  }
+}
+/deep/ .ant-table-title{
+  text-align: center !important;
+  font-weight: bold;
+  font-size: 20px;
+}
+.colClass{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.addMenu{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.checkLisd{
+  box-sizing: border-box;
+  padding:3px 9px;
+  font-size: 14px;
+  color: #333333;
+  border-radius: 6px;
+  border: 1px solid #D2D2D2;
+  margin-bottom: 5px;
+}
+.deles,.addCais{
+  cursor: pointer;
+}
+.disabled{
+  cursor:not-allowed !important;
+  >span{
+    color: #ccc !important;
+  }
+  >i{
+    color: #ccc !important;
+  }
+}

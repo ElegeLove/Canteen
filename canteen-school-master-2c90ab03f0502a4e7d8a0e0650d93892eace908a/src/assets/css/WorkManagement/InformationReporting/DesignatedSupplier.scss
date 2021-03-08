@@ -1,0 +1,49 @@
+.boxs{
+  box-sizing: border-box;
+  padding: 20px 40px;
+}
+.titles{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top:20px;
+  >span{
+    font-size: 18px;
+    color: #333333;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  >div{
+    flex: 1;
+    height: 1px;
+    background-color: #e6e6e6;
+  }
+}
+.contLine{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  white-space: nowrap;
+  >div{
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  >div:not(:last-child){
+    flex: 0 0 33%;
+  }
+}
+.top_box{
+  margin-bottom: 20px;
+  >div{
+    display: flex;
+    align-items: center;
+    >span{
+      font-size: 16px;
+      color:#333333;
+    }
+    .ant-select{
+      width: 180px;
+    }
+  }
+}

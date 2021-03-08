@@ -1,0 +1,34 @@
+.flexBox{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  >div{
+    margin-right: 20px;
+    margin-bottom: 30px;
+    >span{
+      color: #333333;
+    }
+  }
+}
+.actiosn{
+  span{
+    cursor: pointer;
+  }
+}
+.flexAlls{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.downTips{
+  margin-bottom: 30px;
+  >span{
+    font-size: 14px;
+    margin-right: 10px;
+  }
+}
+.marginsd{
+  margin-top: 20px;
+}

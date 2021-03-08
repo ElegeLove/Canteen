@@ -1,0 +1,22 @@
+.dateBox{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  >p{
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #000;
+    width: 30px !important;
+    text-align: center;
+  }
+}
+.boxs{
+  box-sizing: border-box;
+  padding: 30px 40px;
+}
+.actiosn{
+  font-size: 14px;
+  >span{
+    cursor: pointer;
+  }
+}
